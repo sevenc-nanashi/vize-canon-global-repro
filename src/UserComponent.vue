@@ -9,6 +9,8 @@
   <QBtn @click="clickHandler" />
 </template>
 <script setup lang="ts">
+/// <reference types="quasar" />
+
 function eventHandler(eventArg: string) {
   console.log("Event received from GlobalComponent:", eventArg);
 }
