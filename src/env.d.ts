@@ -1,3 +1,5 @@
+/// <reference types="quasar" />
+
 declare module "vue" {
   export interface GlobalComponents {
     GlobalComponent: (typeof import("./GlobalComponent.vue"))["default"];

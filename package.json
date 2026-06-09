@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck:baseline": "vue-tsc",
+    "typecheck:vize": "vize check"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vize": "^0.188.0"
+    "quasar": "^2.19.3",
+    "vize": "^0.189.0"
   },
   "devDependencies": {
     "@typescript/native-preview": "^7.0.0-dev.20260608.1",
+    "typescript": "5.9.3",
     "vue": "^3.5.35",
     "vue-tsc": "^3.3.4"
   }
